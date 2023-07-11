@@ -1,0 +1,84 @@
+html {
+    background: aquamarine;
+}
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+html,
+body,
+main {
+    height: 100%;
+}
+#insert {
+    background: linear-gradient(to top left, red, rgb(255, 186, 39));
+    border-radius: 15px;
+    border-width: 9px;
+    font-size: 100px;
+    margin-top: 20px;
+    width: max-content;
+    font-family: tahoma;
+    margin-bottom: 50px;
+}
+#insert:hover {
+    background: linear-gradient(to top left, rgb(255, 186, 39), red);
+    border-radius: 15px;
+    border-width: 10px;
+    font-size: 105px;
+    margin-top: 20px;
+    width: max-content;
+    font-family: tahoma;
+    margin-bottom: 50px;
+}
+#inputs {
+    width: 100%;
+    height:50px;
+}
+#input-words {
+    border-radius: 15px;
+    border-width: 5px;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    font-family: 'Courier New';
+}
+#input-words:hover {
+    border-radius: 15px;
+    border-width: 6px;
+    border-color: #7dd56f;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    font-family: 'Courier New';
+}
+#alphabetize-button {
+    background: linear-gradient(to top left, #28b487, #7dd56f);
+    border-radius: 30px;
+    border-width: 5px;
+    margin-top: 10px;
+    font-size: 27px;
+    font-family: monospace;
+}
+#alphabetize-button:hover {
+    background: linear-gradient(to top left, #30b487, #7df55f);
+    border-radius: 30px;
+    border-width: 7px;
+    margin-top: 10px;
+    font-size: 29px;
+    font-family: monospace;
+}
+#input-words-label {
+    background: linear-gradient(to top left, rgb(0, 174, 255), skyblue);
+    border-radius: 6px;
+    align-self: flex-start;
+    font-size: x-large;
+    font-family: monospace;
+}
+#alphabetization-container {
+    margin-top: 15px;
+    width: 500px;
+}
+.hidden {
+    display: none;
+}
